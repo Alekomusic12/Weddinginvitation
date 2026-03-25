@@ -1,7 +1,5 @@
 
-  # Invitación de matrimonio elegante
-
-  This is a code bundle for Invitación de matrimonio elegante. The original project is available at https://www.figma.com/design/jwiQl43P8hnKMtKfnGDWFh/Invitaci%C3%B3n-de-matrimonio-elegante.
+  # Invitación de matrimonio 
 
   ## Running the code
 
