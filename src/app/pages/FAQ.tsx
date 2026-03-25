@@ -11,7 +11,18 @@ export default function FAQ() {
   const faqs = [
     {
       question: "¿Dónde es la recepción?",
-      answer: "Hacienda La Martina, Tenjo.",
+      answer: (<>
+          Hacienda{" "}
+          <a 
+            href="https://maps.app.goo.gl/wcRmroZCH5DigWQp9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-yellow-600 underline"
+          >
+            La Martina
+          </a>
+          , Tenjo.
+        </>),
     },
     {
       question: "¿A qué hora comienza?",
