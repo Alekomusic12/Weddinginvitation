@@ -14,7 +14,7 @@ export default function FAQ() {
       answer: (<>
           Hacienda{" "}
           <a 
-            href="https://maps.app.goo.gl/wcRmroZCH5DigWQp9"
+            href="https://maps.app.goo.gl/aXRsWa7LcRcf3WtX6"
             target="_blank"
             rel="noopener noreferrer"
             className="text-yellow-600 underline"
