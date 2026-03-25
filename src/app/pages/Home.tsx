@@ -101,7 +101,7 @@ export default function Home() {
 
           {/* CTA Button */}
           <a
-            href="https://maps.app.goo.gl/CurKCQkWwwarzUhk7"
+            href="https://maps.app.goo.gl/vmN3vbjv4GPWdFfz5"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"
