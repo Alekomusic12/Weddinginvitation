@@ -8,6 +8,7 @@ import KidsAndPets from "./pages/KidsAndPets";
 import FAQ from "./pages/FAQ";
 import NotFound from "./pages/NotFound";
 
+<<<<<<< HEAD
 export const router = createBrowserRouter(
   [
     {
@@ -28,3 +29,20 @@ export const router = createBrowserRouter(
     basename: "/Weddinginvitation/", // 👈 🔥 ESTO ARREGLA TODO
   }
 );
+=======
+export const router = createBrowserRouter([
+  {
+    path: "/",
+    Component: Layout,
+    children: [
+      { index: true, Component: Home },
+      { path: "dress-code", Component: DressCode },
+      { path: "gifts", Component: Gifts },
+      { path: "transport", Component: Transport },
+      { path: "kids-pets", Component: KidsAndPets },
+      { path: "faq", Component: FAQ },
+      { path: "*", Component: NotFound },
+    ],
+  },
+]);
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f

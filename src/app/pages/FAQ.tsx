@@ -11,6 +11,7 @@ export default function FAQ() {
   const faqs = [
     {
       question: "¿Dónde es la recepción?",
+<<<<<<< HEAD
       answer: (<>
           Hacienda{" "}
           <a 
@@ -23,6 +24,9 @@ export default function FAQ() {
           </a>
           , Tenjo.
         </>),
+=======
+      answer: "Hacienda La Martina, Tenjo.",
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
     },
     {
       question: "¿A qué hora comienza?",

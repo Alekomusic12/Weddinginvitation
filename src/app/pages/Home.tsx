@@ -1,7 +1,10 @@
 import { motion } from "motion/react";
 import { MapPin, Calendar, Clock } from "lucide-react";
 import { Button } from "../components/ui/button";
+<<<<<<< HEAD
 import dressCodeImage2 from "../../assets/MartinaGemini.png"; // ← IMPORT CORRECTO
+=======
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
 
 export default function Home() {
   return (
@@ -10,7 +13,11 @@ export default function Home() {
       <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
+<<<<<<< HEAD
             src={dressCodeImage2}
+=======
+            src="https://images.unsplash.com/photo-1769812343890-4e406a33cfbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd2VkZGluZyUyMHZlbnVlJTIwZ2FyZGVufGVufDF8fHx8MTc3NDQ0MTEyNHww&ixlib=rb-4.1.0&q=80&w=1080"
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
             alt="Wedding venue"
             className="w-full h-full object-cover"
           />
@@ -102,7 +109,11 @@ export default function Home() {
 
           {/* CTA Button */}
           <a
+<<<<<<< HEAD
             href="https://maps.app.goo.gl/swN3WK6dKJBWjsMa8"
+=======
+            href="https://maps.app.goo.gl/CurKCQkWwwarzUhk7"
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block"

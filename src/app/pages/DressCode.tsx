@@ -1,6 +1,10 @@
 import { motion } from "motion/react";
 import { Shirt, Info } from "lucide-react";
+<<<<<<< HEAD
 import dressCodeImage from "../../assets/dresscode.png"; // ← IMPORT CORRECTO
+=======
+import dressCodeImage from "figma:asset/2d40ddb49fa2b46531ccd1a5b638056f1d53be9f.png";
+>>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
 
 export default function DressCode() {
   return (
