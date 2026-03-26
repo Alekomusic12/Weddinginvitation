@@ -2,9 +2,7 @@
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
-  
   "homepage": "https://alekomusic12.github.io/Weddinginvitation/",
-
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -93,8 +91,4 @@
       "vite": "6.3.5"
     }
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 16b87ae25e6af02a0e14bb22a2f3e545c7e86f0f
