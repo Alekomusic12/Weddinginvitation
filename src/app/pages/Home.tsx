@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { MapPin, Calendar, Clock } from "lucide-react";
 import { Button } from "../components/ui/button";
+import dressCodeImage2 from "../../assets/MartinaGemini.png"; // ← IMPORT CORRECTO
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       <section className="relative h-[70vh] md:h-[80vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1769812343890-4e406a33cfbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwd2VkZGluZyUyMHZlbnVlJTIwZ2FyZGVufGVufDF8fHx8MTc3NDQ0MTEyNHww&ixlib=rb-4.1.0&q=80&w=1080"
+            src={dressCodeImage2}
             alt="Wedding venue"
             className="w-full h-full object-cover"
           />
